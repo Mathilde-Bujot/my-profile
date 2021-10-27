@@ -1,0 +1,75 @@
+body {
+	background-color: rgb(200, 200, 200);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("images/backround.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: rgb(50, 50, 50);
+	font-family: courrier ;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 1.5; 
+	text-align: center;
+	margin: 100px 60px;
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: 090C9B;
+}
+a:hover {
+	color: darkred;
+}
+
+p{
+	text-justify: justify;
+}
+
+.shadowed
+	box-shadowed: 5px 
+}
+
+h1 {
+    color : black ; 
+    font-family: helvetica;
+}
+.card-white{
+	background-color: lightyellow ;
+	padding: 40px ;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0,3) ;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 1.5; 
+	text-align: center;
+	margin: 20px 0px;
+	width: 700px;
+	border-radius: 30px;
+}
+
+
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #1D3557;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 4px;
+	font-size: 12px;
+}
+.btn-blue: hover{
+	background-color: orange;
+	color: #1D3557;
+}
+.hover-orange:hover {
+	background-color: orange;
+	color: #1D3557;
+}
